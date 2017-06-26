@@ -26,6 +26,13 @@ IMAGE_INSTALL += "\
     vim \
 "
 
+# Linux stuff
+IMAGE_INSTALL += "\
+    kernel \
+    kernel-devicetree \
+    kernel-modules \
+"
+
 IMAGE_LINGUAS = ""
 
 inherit core-image
