@@ -8,7 +8,7 @@ DEPENDS += "dtc-native"
 PV = "v2017.05-tbs-a711+git${SRCPV}"
 
 SRC_URI = "git://github.com/tbs-biometrics/u-boot-a711.git;branch=tbs-a711-v2017.05"
-SRCREV = "7ec44a624d645ca44f73b40cbdf4bf2cbdee388f"
+SRCREV = "0ede53bf22cfe84a13ff35bcc77909b14e018816"
 
 S = "${WORKDIR}/git"
 
