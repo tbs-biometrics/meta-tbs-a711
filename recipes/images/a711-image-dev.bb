@@ -15,6 +15,7 @@ IMAGE_INSTALL += "\
     evtest \
     fb-test \
     htop \
+    iw \
     lsof \
     memtester \
     openssh-scp \
@@ -24,6 +25,7 @@ IMAGE_INSTALL += "\
     screen \
     strace \
     vim \
+    wpa-supplicant \
 "
 
 # Linux stuff
@@ -31,6 +33,7 @@ IMAGE_INSTALL += "\
     kernel \
     kernel-devicetree \
     kernel-modules \
+    linux-firmware-bcm43362 \
 "
 
 IMAGE_LINGUAS = ""
