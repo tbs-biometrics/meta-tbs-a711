@@ -17,6 +17,7 @@ IMAGE_INSTALL += "\
     htop \
     iw \
     lsof \
+    mc \
     memtester \
     openssh-scp \
     openssh-ssh \
@@ -24,8 +25,10 @@ IMAGE_INSTALL += "\
     rsync \
     screen \
     strace \
+    unzip \
     vim \
     wpa-supplicant \
+    zip \
 "
 
 # Linux stuff
